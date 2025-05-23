@@ -15,7 +15,7 @@ namespace ECom.Api.Controllers
         {
         }
 
-        [HttpGet("GettAll")]
+        [HttpGet("GetAll")]
         public async Task<IActionResult> GetAll()
         {
             try
